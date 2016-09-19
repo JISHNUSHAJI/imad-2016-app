@@ -8,6 +8,10 @@ body {
 	background: #1E4297;
 	background-repeat:repeat-x;
 }
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
 
 #container
 {
@@ -59,7 +63,7 @@ color:#B1C6FC
 
 #menu
 {
-background-image:url(images/menu.png);
+background-image:https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTVco9lkJd2iiEM9l0cBGajQiGsabanIfOuXzP7Eyu2WlEA6lx8A815ibsT;
 background-repeat:no-repeat;
 width:940px;
 height:69px;
