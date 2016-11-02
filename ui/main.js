@@ -1,11 +1,18 @@
 
-$(function(){ /* to make sure the script runs after page load */
+var button = document.querySelector('.read-more');
 
-    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
-
-        event.preventDefault(); /* prevent the a from changing the url */
-        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
-
-    });
-
+button.addEventListener('click', function(event) {
+  var span = event.target.previousElementSibling.querySelector('span');
+  span.classList.add('fade-in');
 });
+.show-more span {
+  display: inline-block;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 2s;
+  opacity: 0;
+}
+.show-more span.fade-in {
+  height: auto;
+  opacity: 1;
+}
