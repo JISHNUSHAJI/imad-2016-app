@@ -4,6 +4,6 @@ var hideshow = document.getElementByClassName('read');
 
 hideshow.style.display = 'none';
 
-read.onclick = function() {
+hideshow.onclick = function() {
   span.style.display = 'block';
 };
