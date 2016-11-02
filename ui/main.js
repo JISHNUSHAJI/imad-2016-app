@@ -1,6 +1,6 @@
 
 var span = document.getElementsByTagName('span')[0];
-var hideshow = document.getElementByClassName('read');
+var hideshow = document.getElementById('hideshow');
 
 span.style.display = 'none';
 
