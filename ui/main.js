@@ -1,4 +1,4 @@
-console.log('Loaded!');
+
 var span = document.getElementsByTagName('span')[0];
 var hideshow = document.getElementByClassName('read');
 
