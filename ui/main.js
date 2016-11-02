@@ -1,9 +1,11 @@
 
-var span = document.getElementsByTagName('span')[0];
-var hideshow = document.getElementById('hideshow');
+$(function(){ /* to make sure the script runs after page load */
 
-span.style.display = 'none';
+    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
 
-hideshow.onclick = function() {
-  span.style.display = 'block';
-};
+        event.preventDefault(); /* prevent the a from changing the url */
+        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
+
+    });
+
+});
