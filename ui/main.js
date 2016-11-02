@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var span = document.getElementsByTagName('qw')[0];
-var hideshow = document.getElementByclass('read');
+var hideshow = document.getElementByClassName('read');
 
 hideshow.style.display = 'none';
 
