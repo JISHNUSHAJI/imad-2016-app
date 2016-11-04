@@ -23,8 +23,8 @@ app.get('/DSC03948.JPG', function (req, res) {
 app.get('/ui/DSC03995.JPG', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'DSC03995.JPG'));
 });
-app.get('/DSC03959.JPG', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'DSC03959.JPG'));
+app.get('/DSC04020.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'DSC04020.JPG'));
 });
 
 app.get('/ui/DSC03995.JPG', function (req, res) {
