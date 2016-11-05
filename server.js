@@ -23,12 +23,20 @@ app.get('/DSC03948.JPG', function (req, res) {
 app.get('/ui/DSC03995.JPG', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'DSC03995.JPG'));
 });
-app.get('/ui/DSC04134.JPG', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'DSC04134.JPG'));
+app.get('/ui/DSC04299.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'DSC04299.JPG'));
 });
 
-app.get('/ui/DSC04190.JPG', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'DSC04190.JPG'));
+app.get('/ui/DSC04307.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'DSC04307.JPG'));
+});
+
+app.get('/ui/DSC04348.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'DSC04348.JPG'));
+});
+
+app.get('/ui/DSC04434.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'DSC04434.JPG'));
 });
 
 
