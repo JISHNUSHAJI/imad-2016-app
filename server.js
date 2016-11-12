@@ -46,8 +46,8 @@ app.get('/ui/DSC04190.JPG', function (req, res) {
 app.get('/ui/DSC04134.JPG', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'DSC04134.JPG'));
 });
-app.get('/ui/S JISHNU.pdf', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'S JISHNU.pdf'));
+app.get('/ui/article1', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article 1'));
 });
 
 
